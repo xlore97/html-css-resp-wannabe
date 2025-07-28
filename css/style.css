@@ -161,4 +161,8 @@ img {
     .why-us .col-right {
         width: 100%;
     }
+
+    .why-us {
+        background-color: #222222;
+    }
 }
