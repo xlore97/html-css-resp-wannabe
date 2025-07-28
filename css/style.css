@@ -91,6 +91,7 @@ img {
     padding: 3rem 0;
     color: #232946;
     background: #eebbc3;
+    width: 100%;
 }
 
 .steps h2,
@@ -111,6 +112,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -127,3 +129,36 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* Responsive Tablet */
+@media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+        margin: 0% auto;
+    }
+}
+
+
+/* Responsive Smartphone */
+@media screen and (max-width:480px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+}
